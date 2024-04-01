@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 
-const person = require("../src/controllers/person.controller");
+const person = require("./controllers/person.controller");
 
 const app = express();
 
